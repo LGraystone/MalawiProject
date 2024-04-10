@@ -12,12 +12,12 @@
 
 #Files and content include:
 
-#1DataCleaningPreDep.R:
+#1PreDependent.R:
   #Variable management (renaming, changing data types, standardizing responses, compiling related variables)
   #Data cleaning (identifying and managing outliers, correcting survey and data entry errors, visual inspections, managing NA counts)
   #Preparing dataset for processing through WHO's Anthro Analyzer
 
-#2PostDep.R:
+#2PostDependent.R:
   #Further cleaning (to correct changes made by Anthro Analyzer, identifying and managing additional outliers, identifying and managing extreme z scores)
   #Creating the dependent variables (stunted, wasting, underweight, malnourished) from the calculated Z scores
   #Exploratory data analysis (summary statistics and graphs)
